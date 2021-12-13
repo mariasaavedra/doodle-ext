@@ -1,9 +1,10 @@
 import React from 'react';
+import Toolbar from './Toolbar';
 
 function Foreground() {
     return (
         <div>
-            <h1>Chrome Ext - Foreground</h1>
+           <Toolbar></Toolbar>
         </div>
     )
 }
